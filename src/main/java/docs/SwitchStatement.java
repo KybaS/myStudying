@@ -189,7 +189,7 @@ public class SwitchStatement {
                     System.out.println("first string");
                 } else System.out.println("second string");
             }
-                System.out.println("third string");
+            System.out.println("third string");
 
         }
     }
