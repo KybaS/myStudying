@@ -55,6 +55,31 @@ public class SwitchStatement {
                 System.out.println(rate + " test");
             }
         }
+        {
+            int count = 0;
+            while (count < 10){
+                count++;
+                System.out.println("count: " + count);
+            }
+        }
+        {
+            int count1 = 0;
+            do {
+                System.out.println("count1 is: " + count1);
+                count1++;
+            }while (count1 < 10);
+        }
+        {
+            for (int i = 1; i < 10; i++){
+                System.out.println("for = " + i);
+            }
+        }
+        {
+            int[]numbers = {1,2,3,4,5,6,7,8,9};
+            for (int item:numbers){
+                System.out.println("item is: " + item);
+            }
+        }
     }
 }
 

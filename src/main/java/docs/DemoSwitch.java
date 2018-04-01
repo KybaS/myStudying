@@ -10,6 +10,7 @@ public class DemoSwitch {
                 break;
             case 2:
                 monthName = "February";
+
             case 3:
                 monthName = "March";
                 break;
