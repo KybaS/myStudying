@@ -2,6 +2,9 @@ package docs.constructors;
 
 public class Rectangle {
 
+    public static int x = 7;
+    public int y = 3;
+
     private int height;
     private int weight;
 
@@ -14,6 +17,10 @@ public class Rectangle {
         weight = sideB;
 
         id = ++numberOfRect;
+    }
+
+    public Rectangle(){
+
     }
 
     public void areaOfRect(){
