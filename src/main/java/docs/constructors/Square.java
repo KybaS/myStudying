@@ -19,7 +19,7 @@ public class Square {
         this.y = y;
     }
 
-    public int getAreoOfSquare(int height, int wight) {
+    public int getAreaOfSquare(int height, int wight) {
         return height * wight;
     }
 }
