@@ -6,7 +6,7 @@ public class Rectangle {
     public int y = 3;
 
     private int height;
-    private int weight;
+    private int width;
 
     private int id;
 
@@ -14,7 +14,7 @@ public class Rectangle {
 
     public Rectangle(int sideA, int sideB){
         height = sideA;
-        weight = sideB;
+        width = sideB;
 
         id = ++numberOfRect;
     }
@@ -24,7 +24,7 @@ public class Rectangle {
     }
 
     public void areaOfRect(){
-        int area = height * weight;
+        int area = height * width;
         System.out.println(area);
     }
 
@@ -44,11 +44,11 @@ public class Rectangle {
         height = newValue;
     }
 
-    public int getWeight(){
-        return weight;
+    public int getWidth(){
+        return width;
     }
 
-    public void setWeight(int newValue){
-        weight = newValue;
+    public void setWidth(int newValue){
+        width = newValue;
     }
 }
