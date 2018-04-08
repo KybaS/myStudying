@@ -25,7 +25,6 @@ public class DataStructure {
             return (nextIndex <= SIZE - 1);
         }
 
-        @Override
         public Integer next() {
             Integer retValue = Integer.valueOf(arrayOfInts[nextIndex]);
 
