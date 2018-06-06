@@ -21,7 +21,7 @@ public class ShapesDemo {
         Rectangle firstRect = new Rectangle(5,10);
         firstRect.areaOfRect();
 
-
+String test = "test text";
 
     }
 }
